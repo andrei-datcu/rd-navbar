@@ -1,0 +1,19 @@
+{
+  "name": "rd-navbar",
+  "version": "2.1.8",
+  "description": "Powerful navigation tool. Create your own unique navigations depending on screen resolutions.",
+  "main": "dist/js/jquery.rd-navbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrei-datcu/rd-navbar.git"
+  },
+  "author": "Evgeniy Gusarov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrei-datcu/rd-navbar/issues"
+  },
+  "homepage": "https://github.com/andrei-datcu/rd-navbar#readme"
+}

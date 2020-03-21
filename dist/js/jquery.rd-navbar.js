@@ -6,12 +6,11 @@
  * @version      2.1.8
  */
 
-(function() {
+ import $ from "jquery";
+
   var isTouch;
 
   isTouch = "ontouchstart" in window;
-
-  (function($, document, window) {
 
     /**
     	 * Creates a RDNavbar.
@@ -712,28 +711,7 @@
         }
       }
 
-      /**
-      	* RD Navbar window export
-      	* @public
-       */
     });
-    return window.RDNavbar = RDNavbar;
-  })(window.jQuery, document, window);
+    export default RDNavbar;
 
-
-  /**
-   * The Plugin AMD export
-   * @public
-   */
-
-  if (typeof module !== "undefined" && module !== null) {
-    module.exports = window.RDNavbar;
-  } else if (typeof define === 'function' && define.amd) {
-    define(["jquery"], function() {
-      'use strict';
-      return window.RDNavbar;
-    });
-  }
-
-}).call(this);
 
